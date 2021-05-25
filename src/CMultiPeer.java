@@ -1,10 +1,5 @@
+import java.net.*;
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.MulticastSocket;
-import java.net.NetworkInterface;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -12,6 +7,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /*
  * CMultiPeer
  * Peer to Peer UDP Multicasting Template
+ *
  * Shows how two or more peers can communicate with each other
  * see https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/net/MulticastSocket.html
  * (c)2018-21 by Sven Nueesch
